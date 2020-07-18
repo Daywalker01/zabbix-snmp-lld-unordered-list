@@ -1,5 +1,6 @@
 # Zabbix SNMP unordered list LLD script
-I have created this script in order to mitigate the SNMP LLD issue "Invalid SNMP OID at position X" that ocures when you walk down a tree that does not seem to return an ordered list that the snmplibrary does expect.
+I have created this script in order to mitigate the SNMP LLD issue `"Invalid SNMP OID at position X"` that ocures when you walk down a tree that does not seem to return an ordered list that the snmplibrary does expect.
+
 On the commandline the option `-Cc` does mitigate the option
 
 ### The issue
