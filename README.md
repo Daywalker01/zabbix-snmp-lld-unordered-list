@@ -26,6 +26,7 @@ Example output with `snmpwalk` on affected SNMP tree that I have encountered wil
 Just put the script into your Servers and/or Proxies `ExternalScripts` Folder, and use it in a new LLD Discovery Rule
 
 Type: `External check`
+
 Key: `snmp_unorderd_mibs_discovery.sh[{HOST.CONN},{$SNMP_COMMUNITY},.1.3.6.1.4.1.2620.500.9002.1]`
 
 **Thats it**
